@@ -121,7 +121,15 @@
     </Compile>
     <Compile Include="Helpers\DatabaseHelper.cs" />
     <Compile Include="Helpers\JsonHelper.cs" />
+    <Compile Include="Models\Beacon.cs" />
     <Compile Include="Models\Consumer.cs" />
+    <Compile Include="Models\ConsumerAndVisit.cs" />
+    <Compile Include="Models\Item.cs" />
+    <Compile Include="Models\Map.cs" />
+    <Compile Include="Models\Type.cs" />
+    <Compile Include="Models\Visit.cs" />
+    <Compile Include="Models\VisitAndMap.cs" />
+    <Compile Include="Models\Zone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
