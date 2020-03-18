@@ -15,6 +15,7 @@ namespace SmartTourAPI.Models
         public string UrlImage { get; set; }
         public string UrlVideo { get; set; }
         public string UrlAudio { get; set; }
+        public int IDVisit { get; set; }
 
     }
 }

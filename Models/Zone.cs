@@ -12,5 +12,6 @@ namespace SmartTourAPI.Models
         public string Size { get; set; }
         public string Features { get; set; }
         public int IDItem { get; set; }
+        public int IDMap { get; set; }
     }
 }
