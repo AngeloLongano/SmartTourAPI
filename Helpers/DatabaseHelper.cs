@@ -25,5 +25,17 @@ namespace SmartTourAPI.Helpers
             return consumers;
         }
 
+        public static Consumer GetCosumerById(int id)
+        {
+            var consumer = new Consumer();
+            using (var connection = new MySqlConnection(ConnectionString))
+            {
+                var sql = "select * from consumer where id= @id";
+                consumer = connection.Query<Consumer>(sql, new { id}).FirstOrDefault();
+            }
+            return consumer;
+        }
+
+
     }
 }

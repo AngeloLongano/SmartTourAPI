@@ -12,7 +12,7 @@ namespace SmartTourAPI
             // Servizi e configurazione dell'API Web
 
             // Route dell'API Web
-            config.MapHttpAttributeRoutes();
+            config.EnableCors();
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
